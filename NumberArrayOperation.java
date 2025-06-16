@@ -4,7 +4,7 @@ public class NumberArrayOperation {
 
     public static void sortArray(int[] arr) {
         int n = arr.length;
-
+    // Sorting the array using Selection Sort
         for (int i = 0; i < n - 1; i++) {
             int minIndex = i;
             for (int j = i + 1; j < n; j++) {
