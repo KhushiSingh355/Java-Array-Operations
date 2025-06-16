@@ -33,6 +33,8 @@ public class NumberArrayOperation {
 
         System.out.println("Enter 5 different numbers:");
 
+
+       // logic for array input
         for (int i = 0; i < 5; i++) {
             System.out.print("Number " + (i + 1) + ": ");
             numbers[i] = input.nextInt();
